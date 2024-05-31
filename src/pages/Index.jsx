@@ -6,14 +6,14 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Header */}
-      <Box as="header" bg="gray.800" color="white" py={4} px={6}>
+      <Box as="header" bg="rgb(243, 242, 239)" color="black" py={4} px={6}>
         <Heading as="h1" size="lg">
           Financial Times
         </Heading>
       </Box>
 
       {/* Navigation Bar */}
-      <Flex as="nav" bg="gray.700" color="white" p={2} justifyContent="center">
+      <Flex as="nav" bg="rgb(243, 242, 239)" color="black" p={2} justifyContent="center">
         <Link href="#" p={2} _hover={{ textDecoration: "none", bg: "gray.600" }}>
           Home
         </Link>
@@ -54,7 +54,7 @@ const Index = () => {
       </SimpleGrid>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={4} px={6} mt={10}>
+      <Box as="footer" bg="rgb(243, 242, 239)" color="black" py={4} px={6} mt={10}>
         <Flex justifyContent="space-between" alignItems="center">
           <Text>&copy; 2023 Financial Times. All rights reserved.</Text>
           <Flex gap={3}>
